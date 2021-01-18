@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/pando_ent_logo.png">
+    <title>PANDO ENTERTAINMENT</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/slide.js"></script>
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <div class="head">
+                <div class="header-logo">
+                    <a href="index.html"><img src="./image/LOGO.png" alt=""></a>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">기업소개</a></li>
+                        <li><a href="#">채널</a></li>
+                        <li><a href="#">계열사</a></li>
+                    </ul>
+
+                </nav>
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="#">PANDO 계열사</a>
+                        <a href="#">PANDO 계열사</a>
+                        <a href="#">PANDO 계열사</a>
+                        <a href="#">PANDO 계열사</a>
+                        <a href="#">PANDO 계열사</a>
+                        <a href="#">PANDO 계열사</a>
+                        <a href="#">PANDO 계열사</a>
+
+                    </div>
+                </div>
+
+
+                <span style="font-size:30px;cursor:pointer;color: #fff" onclick="openNav()"><i
+                        class="fas fa-bars"></i></span>
+
+            </div>
+        </header>
+        <!--슬라이드배너 -->
+        <section class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background: url(./image/bg1.png); background-position: 0 bottom; background-repeat:no-repeat;">
+                    <div class="main-text">
+                        <p>엔터테인먼트르 설명하는 간단한 부제목이 들어가는 자리</p>
+                        <h1>판도엔터테인먼트<br>사이트 런칭!</h1>
+                        <p>전면 슬라이드 배너의 세부설명 텍스트가 들어가는 자리입니다.<br>배너 세부설명 텍스트가 들어가는 자리입니다.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(./image/bg1.png); background-position: 0 bottom; background-repeat:no-repeat;">Slide 2</div>
+                <div class="swiper-slide" style="background: url(./image/bg1.png); background-position: 0 bottom; background-repeat:no-repeat;">Slide 3</div>
+                <div class="swiper-slide" style="background: url(./image/bg1.png); background-position: 0 bottom; background-repeat:no-repeat;">Slide 4</div>
+                <div class="swiper-slide" style="background: url(./image/bg1.png); background-position: 0 bottom; background-repeat:no-repeat;">Slide 5</div>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination" style="width: 10%;">
+                <div class="bar"></div>
+            </div>
+
+            <!-- Add Arrows -->
+            <div class="swiper-button-next" style="color: #fff;">〉</div>
+            <div class="swiper-button-prev" style="color: #fff;">〈</div>
+        </section>
+    </main>
+
+    <!-- 뉴스 -->
+    <section class="company">
+        <div class="company-content">
+
+            <img src="./image/photo.jpg" alt="">
+
+            <div class="company-text">
+                <h1>글로벌 데뷔 프로젝트...<br>중장기 성장 동력 강화</h1>
+                <p>"자체 플랫폼 위버스는 초대형 글로벌 레코드사 UMG 소속 해외 아티스트 4팀과 입점 계약을 마쳤다. "며 "해당 아티스트들의 개별 인지도는 높지 않지만 UMG와 위버스의 관계가
+                    시작된 만큼 향후 대형 글로벌 아티스트 입점 가능성도 유효해졌다"고 했다.</p>
+                <a class="button"><span>더보기 »</span></a>
+            </div>
+        </div>
+
+        <div class="information">
+            <div class="information-group">
+
+                <div class="information-box">
+                    <div class="information-top">
+                        <p>회사소개</p>
+                    </div>
+                    <div class="information-bottom">
+                        <p>회사소개 텍스트<br>회사소개 텍스트</p>
+                        <i class="far fa-building"></i>
+                    </div>
+                </div>
+
+                <div class="information-box">
+                    <div class="information-top">
+                        <p>오시는 길</p>
+                    </div>
+                    <div class="information-bottom">
+                        <p>오시는길 텍스트<br>오시는길 텍스트</p>
+                        <i class="far fa-map"></i>
+                    </div>
+                </div>
+
+                <div class="information-box">
+                    <div class="information-top">
+                        <p>오디션</p>
+                    </div>
+                    <div class="information-bottom">
+                        <p>오디션 텍스트<br>오디션 텍스트</p>
+                       <i class="far fa-user"></i>
+                    </div>
+                </div>
+
+                <div class="information-box">
+                    <div class="information-top">
+                        <p>채용</p>
+                    </div>
+                    <div class="information-bottom">
+                        <p>채용 텍스트<br>채용 텍스트</p>
+                        <i class="fas fa-edit"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 피아노가든 -->
+    <section class="piano_garden">
+        <div class="piano_top">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <h2>유튜브채널<br>피아노가든</h2>
+        </div>
+        <div class="piano_box">
+            <div class="video_box">
+                <div class="video">
+                    <a href="#">
+                        <iframe src="https://www.youtube.com/embed/jTfnyNlpWRY" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </a>
+                    <a href="#">
+                        <iframe src="https://www.youtube.com/embed/XzyNUIZ-vIM" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </a
+                    ><a href="#">
+                        <iframe src="https://www.youtube.com/embed/JHGTU9NsOh8" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </a>
+                    <a href="#">
+                        <iframe src="https://www.youtube.com/embed/jnUTxXJh1DQ"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </a>
+                    <!-- <a href="#">
+                        <iframe src="https://www.youtube.com/embed/dhb1xEfVZJ0" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </a>
+                    <a href="#">
+                        <iframe src="https://www.youtube.com/embed/6TKF5-_wuc0" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </a> -->
+                </div>
+            </div>
+            <div class="piano_text_box">
+                <p>
+                    피아노 선율을 사랑하는 사람들을 위해
+                    창의적인 아티스트들의 음악으로 가득한 채널입니다.<br>
+                    카페, 숍 등 다양한 상점에 어울리는 음악으로 구성되어 있어
+                    일상 생활에서 치유, 휴식, 명상, 연구, 깊은 수면 및 마음의 평화 등의
+                    다양한 감정을 모든 사람과 공유하고 있습니다.
+                </p>
+                <small>
+                    <a href="https://www.youtube.com/c/PianoGarden" target="blank">« 더보기</a>
+                </small>
+            </div>            
+        </div>
+    </section>
+
+    <!-- 판도플랫폼 -->
+    <section class="pando_platform">
+        <div class="platform">
+            <!-- <img src="image/platform_background.png" alt=""> -->
+            <h2>
+                새로운 패러다임을
+                만들어가는 판도그룹
+            </h2>
+            <div class="platform_box">
+                <ul>
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/browser.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>브라우저</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/browser_mining.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>브라우저 마이닝</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/coin.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>코인</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/exchange.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>거래소</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/wallet.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>월렛</p>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/pay.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>페이</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/platform.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>플랫폼</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/entertainment.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>엔터테인먼트</p>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/pictures.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>픽쳐스</p>
+                        </div>
+                    </li>    
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/software.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>소프트웨어</p>
+                        </div>
+                    </li>     
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/game.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>게임</p>
+                        </div>
+                    </li>      
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/music.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>뮤직</p>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/messenger.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>메신저</p>
+                        </div>
+                    </li>  
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/messenger_mining.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>메신저 마이닝</p>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/panting.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>판팅</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/panting_mining.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>판팅 마이닝</p>
+                        </div>
+                    </li>  
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/filmining.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>필마이닝</p>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="platform_img_box">
+                            <a href="#" target="black"><img src="image/splitsy.png" alt=""></a>
+                        </div>
+                        <div class="platform_text_box">
+                            <p>스플릿지</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- top버튼 -->
+    <aside class="btn_top">
+        <div class="top">Top</div>
+    </aside>
+
+    <footer>
+        <div class="footer">
+
+            <div class="footer-left">
+                <img src="./image/entertainment_foot.png" alt="">
+
+                <div class="footer-left-text">
+                    <p>대표자:한성희</p>
+                    <p>사업자등록번호:506-81-02280</p>
+                    <p>주소:경상북도 포항시 남구 대송로 180</p>
+                </div>
+
+                <p>Copyright ⓒ 2021 PANDO ENTERTAIMENT</p>
+            </div>
+
+            <div class="footer-right">
+                <p>개인정보처리방침</p>
+                <p>이용약관</p>
+
+                <div class="footer-language">
+                    <select id="language">
+                        <option value="one" style="color:#000;">KO</option>
+                        <option value="two" style="color:#000;">EN</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="../package/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'progressbar',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    </script>
+</body>
+
+</html>
